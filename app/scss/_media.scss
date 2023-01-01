@@ -441,8 +441,15 @@
   .product-detail-tab-content td {
     font-size: 13px;
   }
-  .product-desc p {
+  .product-detail-tab-content td p {
     font-size: 13px;
+  }
+  .product-promo-color table {
+    width: fit-content!important;
+  }
+  .product-promo-color td, .product-promo-color td span {
+    font-size: 13px;
+    line-height: 130%;
   }
 }
 

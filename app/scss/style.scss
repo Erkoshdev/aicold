@@ -24,13 +24,13 @@
 }
 
 .header-logo {
-  width: 70px;
-  height: 70px;
+  width: auto;
+  height: 40px;
   flex-shrink: 0;
 }
 
 .header-logo img {
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -637,13 +637,13 @@
 }
 
 .footer-logo {
-  width: 80px;
-  height: 80px;
+  width: auto;
+  height: 40px;
   flex-shrink: 0;
 }
 
 .footer-logo img {
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -930,7 +930,21 @@
   border-radius: 10px;
 }
 
+.product-promo-color td, .product-promo-color td span {
+  font-size: 16px;
+  color: #41546a;
+  line-height: 120%;
+  white-space: nowrap;
+}
 
+.product-promo-color table {
+  border-color: #41546a!important;
+}
+
+.product-promo-price {
+  width: 100%;
+  overflow-x: auto;
+}
 
 
 @import "media";
